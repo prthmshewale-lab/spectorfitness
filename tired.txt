@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX MAN - Metabolic Reset</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        }
+        .bg-grid {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='white' stroke-opacity='0.03' stroke-width='1'%3E%3Cpath d='M0 .5H31.5V32'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased bg-[#050505] text-white font-sans selection:bg-blue-500/30 relative overflow-y-auto bg-grid">
+    
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-white/5 rounded-full blur-[120px] pointer-events-none"></div>
+    
+    <header class="w-full py-5 border-b border-white/10 flex justify-center sticky top-0 bg-[#050505]/95 backdrop-blur-md z-50">
+        <h1 class="text-xl font-bold tracking-[0.25em] text-white uppercase">APEX MAN</h1>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 sm:px-6 pb-0 relative z-10">
+        <section class="pt-12 pb-0 flex flex-col items-center text-center">
+            <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[1.1] tracking-tight">
+                Your <span class="text-[#e14c4c]">belly fat</span> isn't a willpower problem. It's a metabolic one.
+            </h2>
+            <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold mt-6 leading-tight">
+                The Men's Metabolic Reset fixes it in 90 days
+            </h3>
+            <p class="text-xl sm:text-2xl font-medium mt-6 text-gray-200">
+                even if you've failed before.<br />
+                <span class="font-bold text-white uppercase tracking-wide">Built for men 30-50 with zero patience for BS.</span>
+            </p>
+
+            <div class="w-full relative aspect-video mt-10 rounded-xl overflow-hidden shadow-2xl bg-gray-900 border border-white/10 group">
+                <iframe
+                    class="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/4_3s28B_FxQ?playsinline=1&rel=0&modestbranding=1"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
+            <div class="w-full mt-10 relative">
+                <div class="absolute -inset-1 bg-[#4a78ff] rounded-full blur-xl opacity-40"></div>
+                <button class="relative w-full bg-gradient-to-b from-[#5c85ff] to-[#3b62ff] hover:scale-[1.02] active:scale-[0.98] text-white rounded-full py-6 px-6 flex flex-col items-center justify-center shadow-2xl transition-all border border-blue-400/50">
+                    <span class="font-bold text-2xl sm:text-3xl flex items-center gap-2">
+                        Want help fixing this? 
+                        <i data-lucide="chevrons-right" class="w-6 h-6 sm:w-8 sm:h-8"></i>
+                    </span>
+                    <span class="text-base sm:text-lg font-medium text-blue-100 mt-1">Book a Metabolic Assessment Call</span>
+                </button>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-4 mt-10 mb-16">
+                <div class="bg-white text-black font-black text-2xl w-12 h-12 flex items-center justify-center rounded-lg shadow-lg">R</div>
+                <div class="flex flex-col justify-center items-start border-l border-white/20 pl-4">
+                    <div class="flex text-[#f59e0b] mb-1">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <span class="text-white text-xs font-bold tracking-[0.2em] uppercase">Trusted by 2,157+ Men</span>
+                </div>
+                <div class="flex -space-x-4 ml-4">
+                    <img src="https://images.pexels.com/photos/7648283/pexels-photo-7648283.jpeg" class="w-12 h-12 rounded-full border-2 border-[#050505] object-cover" />
+                    <img src="https://images.pexels.com/photos/6337527/pexels-photo-6337527.jpeg" class="w-12 h-12 rounded-full border-2 border-[#050505] object-cover" />
+                    <img src="https://images.pexels.com/photos/11135793/pexels-photo-11135793.jpeg" class="w-12 h-12 rounded-full border-2 border-[#050505] object-cover" />
+                    <img src="https://images.pexels.com/photos/5955134/pexels-photo-5955134.jpeg" class="w-12 h-12 rounded-full border-2 border-[#050505] object-cover" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="w-full bg-white text-black py-20 relative z-10">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-center mb-16">
+                Real results from <span class="text-[#4a78ff]">high-performing</span> men
+            </h2>
+
+            <div class="space-y-16">
+                <div class="group">
+                    <img src="https://i.ibb.co/3JS1Nq2/6837777bc6ad288d14821e24.png" class="w-full rounded-2xl shadow-2xl" />
+                    <p class="text-2xl font-bold mt-6 border-l-4 border-[#4a78ff] pl-4">Mike after doing a Metabolic Reset.</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/vbXvBjM/male-body-transformation-london-1-1.jpg" class="w-full rounded-2xl shadow-2xl" />
+                    <p class="text-2xl font-bold mt-6 border-l-4 border-[#4a78ff] pl-4">CFO in his 40s loses 21 lbs in 90 days.</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/1tDspcys/images-1.jpg" class="w-full rounded-2xl shadow-2xl" />
+                    <p class="text-2xl font-bold mt-6 border-l-4 border-[#4a78ff] pl-4">Mark, 45, dropped 30lbs of "Dad Bod" weight.</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/q3tNyQTR/images.jpg" class="w-full rounded-2xl shadow-2xl" />
+                    <p class="text-2xl font-bold mt-6 border-l-4 border-[#4a78ff] pl-4">Tech Founder builds a superhero physique.</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/ZzBhVR1p/m-39-3-month-turn-around-from-feeling-and-looking-like-a-v0-8gehg22rc2y71.jpg" class="w-full rounded-2xl shadow-2xl" />
+                    <p class="text-2xl font-bold mt-6 border-l-4 border-[#4a78ff] pl-4">David, 16 weeks after fixing his metabolic health.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPDATED COACH SECTION -->
+    <section class="bg-[#0a0a0a] py-24 relative z-10 border-t border-white/10">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <div class="bg-[#111111] rounded-3xl p-8 sm:p-12 border border-white/5 shadow-inner">
+                <div class="flex flex-col items-center text-center">
+                    <h2 class="text-4xl font-black mb-10 tracking-tight">Meet your coach, Spector</h2>
+                    <div class="relative mb-10">
+                        <div class="absolute -inset-2 bg-gradient-to-tr from-[#4a78ff] to-[#e14c4c] rounded-full blur opacity-30"></div>
+                        <div class="w-64 h-64 rounded-full overflow-hidden relative border-4 border-white/10">
+                            <img src="https://i.ibb.co/nswbNXgj/o-MAIz-Ai-BIfm6-AONJAaf-Ge-Gw2-Af-KLAAAAACLc-Qj-tplv-4d650qgzx3-image.jpg" class="w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    <div class="space-y-6 text-xl text-gray-300 leading-relaxed max-w-xl">
+                        <p>Spector is the <span class="text-white font-bold">#1 health and fitness expert</span> for high-performing men over 30. Over the last decade, he has helped over <span class="text-[#4a78ff] font-bold">2,157 private clients</span> go from soft and out of shape to shredded and powerful.</p>
+                        <p>His clients are the top echelon of men—CEOs, founders, and executives—who need <span class="text-white font-bold">"Metabolic Reconstruction"</span> to build a superhero physique without living in the gym. They don't just look better; they move through life with more confidence and the kind of unstoppable energy required to lead at the highest level.</p>
+                    </div>
+                    <button class="mt-12 bg-white text-black font-black px-10 py-5 rounded-full hover:bg-gray-200 transition-colors uppercase tracking-widest text-sm">
+                        Apply to work with Spector
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full py-20 border-t border-white/10 flex flex-col items-center bg-black">
+        <h2 class="text-2xl font-bold tracking-[0.4em] uppercase text-gray-500">APEX MAN</h2>
+        <p class="text-gray-600 mt-4 text-sm tracking-widest">© 2026 ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
